@@ -20,7 +20,7 @@ package PCT;
 			
 			  findNickname(input, N);
 		}
-
+		// find nickname
 		private static void findNickname(String[] input, int n) {
 			
 			int sum=0;

@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class PctTupleBasic {
 
+	// find number of elements
 	public void calculate(String inputString)
 	{
 		ArrayList<Character> inputList = new ArrayList<>();

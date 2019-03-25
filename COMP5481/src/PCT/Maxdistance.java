@@ -15,17 +15,18 @@ public class Maxdistance {
 				array[i]=scan.nextInt();
 			}
 		calulate(array, size);
+		scan.close();
 	}
 
 	private static void calulate(int[] array,int size) {
-
+		int max=0;
 		for(int i=0; i<size; i++)
 		{
 			for(int j=1; j<size; j++)
 			{
 				if(array[i] == array[j])
 				{
-					System.out.println(Arrays.asList(array).indexOf(4));
+					
 				}
 			}
 		}

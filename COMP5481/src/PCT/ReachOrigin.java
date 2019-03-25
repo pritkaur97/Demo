@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ReachOrigin {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
 		int N=scan.nextInt();
@@ -19,9 +18,9 @@ public class ReachOrigin {
 		}
 		scan.close();
 	}
-
+// find way to origin
 	private static void calculate(int[][] origin, int n, int m) {
-		// TODO Auto-generated method stub
+
 		for(int i=0; i<=n; i++)
 		{
 			for(int j=0; j<=m; i++)

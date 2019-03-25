@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class NumberofNumbers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Scanner scan=new Scanner(System.in);
 		int size=scan.nextInt();
 		scan.nextLine();
@@ -21,18 +21,11 @@ public class NumberofNumbers {
 	}
 
 	private static void calculate(String numbers, int find) {
-		// TODO Auto-generated method stub
-		 //System.out.println(Arrays.toString(array));
-		
-		
+				
 		 char[] array=new char[numbers.length()];
 		 
 		 array = numbers.toCharArray();
-//		 List<char[]> myList=new ArrayList<>();
-//		 myList=Arrays.asList(array);
 		 
-		 
-		 //System.out.println(Arrays.toString(array));
 		 int count =0;
 		 
 		 

@@ -22,14 +22,13 @@ package PCT;
 		}
 
 		private static void Calculate(int[] arr, int n) {
-			// TODO Auto-generated method stub
+
 			Arrays.sort(arr);
 			String stringCon = "";
 			String stringCon1 ="";
 			for(int i=0; i<n; i+=2)
 			{
-			//System.out.println(i);
-			//System.out.println(arr[i]);
+			
 				stringCon = stringCon + arr[i];
 			}
 			for(int j=1; j<n; j+=2)

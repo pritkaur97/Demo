@@ -15,9 +15,9 @@ public class RunLength {
 			makePairs(str, n);
 		}
 	}
-
+// make pairs
 	private static void makePairs(String str, int n) {
-		// TODO Auto-generated method stub
+
 		for(int i=0; i<n; i++)
 		{
 			int count=1;

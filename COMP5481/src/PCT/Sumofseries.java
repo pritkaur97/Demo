@@ -12,7 +12,7 @@ public class Sumofseries {
 		calculate(a);
 		scan.close();
 	}
-
+// find sum 
 	private static void calculate(int a) {
 
 		int sum=0;

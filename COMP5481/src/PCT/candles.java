@@ -20,9 +20,8 @@ public class candles {
 		
 		findcandle(arr, age);
 	}
-
+		// to find number of candles
 	private static int findcandle(int[] arr, int age) {
-		// TODO Auto-generated method stub
 	
 		int count=1;
 		int max=arr[0];

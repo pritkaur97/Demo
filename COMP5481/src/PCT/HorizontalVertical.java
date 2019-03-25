@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HorizontalVertical {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Scanner scan=new Scanner(System.in);
 		int V=scan.nextInt();
 		int H=scan.nextInt();
@@ -25,9 +25,9 @@ public class HorizontalVertical {
 				
 		CountIntersection(arrayV, arrayH);
 	}
-
+		// find intersect points
 	private static void CountIntersection(String[] arrayV, String[] arrayH) {
-		// TODO Auto-generated method stub
+
 		int count =0;
 		for(int i=0; i<arrayV.length; i++)
 		{

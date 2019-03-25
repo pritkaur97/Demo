@@ -9,7 +9,6 @@ import java.util.Stack;
 public class ParanthesisMatch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner scan=new Scanner(System.in);
 		int N=scan.nextInt();
@@ -44,6 +43,7 @@ public class ParanthesisMatch {
 			scan.close();
 	}
 
+	// check balanced brackets
 	private static Boolean Match(String string) {
 		
 		

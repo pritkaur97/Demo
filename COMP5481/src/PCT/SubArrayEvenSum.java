@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class SubArrayEvenSum {
 	
+	//find even and odd elements
 	public static void main(String[] args)
 	{
-		//SubArrayEvenSum obj=new SubArrayEvenSum();
 		Scanner input=new Scanner(System.in);
 		int t=input.nextInt();
 		while(t-->0)

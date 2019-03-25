@@ -22,7 +22,7 @@ public class uniquecount {
 		this.name = name;
 		this.value = value;
 	}
-	
+	// find unique count
 	static Map<String,Integer> hmap = new HashMap<>();
 	public void calculate(String inputString)
 	{
@@ -39,19 +39,10 @@ public class uniquecount {
 			}
 		}
 		System.out.println(hmap);
-//		ArrayList<uniquecount> myList = new ArrayList<>();
-//		for(String key:hmap.keySet())
-//		{
-//			myList.add(new uniquecount(key,hmap.get(key)));
-//		}
-//		
-//		myList.sort(Comparator.comparing(i->i.value));
-//		
-//		myList.stream().forEach(i->System.out.println(i.name));
+
 	}
 	
-	
-	
+
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String inputString = scan.nextLine();
